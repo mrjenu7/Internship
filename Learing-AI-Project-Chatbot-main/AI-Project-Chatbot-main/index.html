@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco-Friendly Products Chatbot</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="chat-container">
+            <header>
+                <h1><i class="fas fa-leaf"></i> Eco-Bot</h1>
+                <div class="ai-indicator">
+                    <span class="ai-badge">AI: <span id="aiStatus">Gemini</span></span>
+                </div>
+                <div class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </div>
+            </header>
+            
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot-message">
+                    <div class="message-content">
+                        <p>Hello! I'm Eco-Bot. Ask me about eco-friendly products and sustainable alternatives.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="chat-input">
+                <input type="text" id="userInput" placeholder="Ask about eco-friendly products...">
+                <button id="sendBtn"><i class="fas fa-paper-plane"></i></button>
+            </div>
+            
+            <div class="chat-actions">
+                <button id="clearBtn"><i class="fas fa-trash"></i> Clear Chat</button>
+                <button id="downloadBtn"><i class="fas fa-download"></i> Download Chat</button>
+            </div>
+        </div>
+        
+        <div class="student-panel">
+            <h2>Project Team</h2>
+            <div class="student-card">
+                <h3>Lalit Bhardwaj</h3>
+                <p>Reg No: 12310676</p>
+                <p>Roll No: 27</p>
+            </div>
+            <div class="student-card">
+                <h3>Priyanshu</h3>
+                <p>Reg No: 12326120</p>
+                <p>Roll No: 35</p>
+            </div>
+            <div class="student-card">
+                <h3>Divyanshu</h3>
+                <p>Reg No: 12304906</p>
+                <p>Roll No: 70</p>
+            </div>
+            <div class="eco-info">
+                <h3>About Eco-Bot</h3>
+                <p>Eco-Bot uses Google's Gemini AI to provide real-time information about eco-friendly products and sustainable alternatives based on your specific queries. All responses are generated using the latest AI technology, not from a predefined database.</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/main.js"></script>
+</body>
+</html> 
